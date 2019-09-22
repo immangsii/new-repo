@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(179, 176, 197);
+}
+
+header{
+    background-color: maroon;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.tab-bar nav img{
+    width: 250px;
+    position: absolute;
+    padding: 0 90px;
+    top: -5px;
+}
+
+.tab-bar nav ul li{
+    list-style: none;
+}
+
+ul{
+    padding: 17px 320px;
+    width: 80%;
+    
+}
+
+li{
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+li:hover{
+    color: wheat;
+}
+
+.head-cont{
+    position: relative;
+    top: 100px;
+    z-index: 9;
+}
+
+.head-cont form{
+    text-align: center;
+}
+
+.head-cont form .search{
+    width: 80%;
+    padding: 9px 20px;
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.head-cont form .button{
+    background-color: maroon;
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#banner img{
+    width: 100%;
+    z-index: 8;
+    position: relative;
+}
+
+#banner h2, h4{
+    position: absolute;
+    z-index: 9;
+    color: white;
+    margin-left: 40px;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+#banner h2{
+    top: 500px;
+    font-size: 30px;
+}
+#banner h4{
+    top: 550px;
+    font-size: 20px;
+    word-spacing: 0.3em;
+}
+
+#banner h4 a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 15px;
+}
+
+.choice-destiny{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.choice-destiny p{
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.choice-destiny .choice img{
+    width: 300px;
+    height: 200px;
+    border: 0 solid rgb(95, 95, 95);
+    padding: 10px;
+}
+
+.choice-destiny .choice img:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.foot-bar{
+    display: inline;
+    text-align: center;
+    color: white;
+}
+
+.foot-bar a{
+    text-decoration: none;
+    color: white;
+}
